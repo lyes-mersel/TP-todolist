@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="images/favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Todo List</title>
+	</head>
+
+	<body>
+		<main>
+			<span id="counter"></span>
+			<h1>TODO LIST</h1>
+			<p>Saisissez quelque chose à faire et cliquer sur <em>Ajouter</em>.</p>
+			<form id="add-task">
+				<input
+					id="task-input"
+					type="text"
+					placeholder="Quelque chose à faire"
+				/>
+				<input type="submit" value="Ajouter" />
+			</form>
+			<ol id="todo-list"></ol>
+			<form id="save-form">
+				<input id="clear-button" type="reset" value="Clear" />
+				<input id="save-button" type="submit" value="Save" />
+			</form>
+			<script src="js/index.js"></script>
+		</main>
+	</body>
+</html>
